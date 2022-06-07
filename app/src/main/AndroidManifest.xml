@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.onlineshopping">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.OnlineShopping">
+        <activity android:name=".Orders"></activity>
+        <activity android:name=".AddToCart" />
+        <activity android:name=".Confirm_password" />
+        <activity android:name=".ForgetPassword" />
+        <activity android:name=".Camera" />
+        <activity android:name=".Voice" />
+        <activity android:name=".Text" />
+        <activity android:name=".choices" />
+        <activity android:name=".SearchProduct" />
+        <activity android:name=".DiaplayPro" />
+        <activity android:name=".DiaplayCat" />
+        <activity android:name=".CATorPro" />
+        <activity android:name=".ProductsCat" />
+        <activity android:name=".SignUp" />
+        <activity android:name=".LogIn" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

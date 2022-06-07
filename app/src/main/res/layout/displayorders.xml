@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/txt_disname"
+        android:layout_width="290dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="30dp"
+        android:textColor="@color/purple_700"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/txt_disquantity"
+        android:layout_width="155dp"
+        android:layout_height="46dp"
+        android:layout_below="@id/txt_disname"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="4dp"
+        android:textColor="@color/purple_700"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/txt_disprice"
+        android:layout_width="154dp"
+        android:layout_height="52dp"
+        android:layout_below="@id/txt_disquantity"
+        android:layout_marginLeft="60dp"
+        android:textColor="@color/purple_700"
+        android:textSize="24sp" />
+
+    <ImageView
+        android:id="@+id/image_del"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignRight="@id/txt_disname"
+        android:layout_marginLeft="250dp"
+        android:layout_marginRight="-50dp"
+        android:src="@drawable/ic_baseline_delete_24" />
+
+    <Button
+        android:id="@+id/btn_sumqua"
+        android:layout_width="76dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/image_del"
+        android:layout_alignRight="@id/txt_disname"
+        android:layout_marginLeft="250dp"
+        android:layout_marginRight="-53dp"
+        android:text="+"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        app:backgroundTint="@color/white" />
+
+    <Button
+        android:id="@+id/btn_subque"
+        android:layout_width="65dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/image_del"
+
+        android:layout_alignLeft="@id/btn_sumqua"
+        android:layout_marginLeft="-56dp"
+        android:layout_marginTop="0dp"
+        android:text="-"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        app:backgroundTint="@color/white" />
+
+
+</RelativeLayout>
